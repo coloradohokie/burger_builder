@@ -113,7 +113,7 @@ class contactData extends Component {
         
     }
 
-    checkValditity(value, rules) {
+    checkValiditity(value, rules) {
         let isValid = true
 
         if(rules.required) {
@@ -139,7 +139,7 @@ class contactData extends Component {
             ...updatedOrderForm[inputIdentifier]
         }
         updatedFormElement.value = event.target.value
-        updatedFormElement.valid = this.checkValditity(updatedFormElement.value, updatedFormElement.validation)
+        updatedFormElement.valid = this.checkValiditity(updatedFormElement.value, updatedFormElement.validation)
         updatedFormElement.touched = true
         updatedOrderForm[inputIdentifier] = updatedFormElement
 
