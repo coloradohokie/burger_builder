@@ -16,12 +16,6 @@ const reducer = (state = initialState, action) => {
 
 
     switch(action.type) {
-        // case actionTypes.GET_INGREDIENTS:
-        //     return {
-        //         ...state,
-        //         ingredients: action.ingredients
-        //     }
-
         case actionTypes.ADD_INGREDIENT:
             return {
                 ...state,
@@ -55,6 +49,7 @@ const reducer = (state = initialState, action) => {
                     cheese: action.ingredients.cheese,
                     meat: action.ingredients.meat
                 },
+                totalPrice: 4,
                 error: false
             }
         

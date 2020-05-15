@@ -2,7 +2,12 @@ export {
     addIngredient, 
     removeIngredient, 
     initIngredients, 
-    fetchIngredientsFailed
+    // fetchIngredientsFailed
 } from './burgerBuilder'
 
-export {} from './order'
+export {
+    purchaseBurger,
+    // purchaseBurgerFail,
+    purchaseInit,
+    fetchOrders
+} from './order'
