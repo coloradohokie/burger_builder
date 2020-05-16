@@ -15,13 +15,6 @@ export const removeIngredient = (name) => {
     }
 }
 
-// export const getIngredients = (ingredients) => {
-//     return {
-//         type: actionTypes.GET_INGREDIENTS, 
-//         ingredients: ingredients
-//     }
-// }
-
 export const setIngredients = (ingredients) => {
     return {
         type: actionTypes.SET_INGREDIENTS,
